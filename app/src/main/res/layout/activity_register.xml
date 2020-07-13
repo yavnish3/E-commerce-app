@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#F7F7FA"
+    android:layout_height="match_parent"
+    tools:context=".Buyer.registerActivity">
+    <ImageView
+        android:id="@+id/reg_app_logo"
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/app_logo" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apni "
+        android:fontFamily="cursive"
+        android:id="@+id/reg_ic_text1"
+        android:textStyle="bold | italic"
+        android:textSize="80dp"
+        android:textColor="#E91E63"
+        android:layout_toRightOf="@+id/reg_app_logo"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="दुकान "
+        android:id="@+id/reg_ic_text2"
+        android:textStyle="bold | italic"
+        android:textSize="67dp"
+        android:fontFamily="cursive"
+        android:layout_below="@+id/reg_ic_text1"
+        android:textColor="#E91E63"
+        android:layout_toRightOf="@+id/reg_app_logo"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find, Discover, choose and Buy Online"
+        android:id="@+id/reg_ic_text3"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="22dp"
+        android:layout_below="@+id/reg_ic_text2"
+        android:textColor="#1837E0"
+        android:layout_marginTop="40dp"
+        />
+
+    <EditText
+        android:id="@+id/reg_urnm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reg_ic_text3"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input_design"
+        android:hint="User Name"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="17sp"
+        android:textStyle="bold"
+
+        />
+
+    <EditText
+        android:id="@+id/reg_phno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reg_urnm"
+        android:background="@drawable/input_design"
+        android:padding="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="17sp"
+        android:textStyle="bold"
+
+        />
+
+    <EditText
+        android:id="@+id/reg_pswrd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reg_phno"
+        android:background="@drawable/input_design"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="17sp"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:id="@+id/reg_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reg_pswrd"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/buttons"
+        android:padding="18dp"
+        android:textColor="@android:color/white"
+        android:text="Create Account"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+
+
+        />
+
+
+
+</RelativeLayout>

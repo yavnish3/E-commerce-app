@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "238273590208",
+    "firebase_url": "https://mall24x7.firebaseio.com",
+    "project_id": "mall24x7",
+    "storage_bucket": "mall24x7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238273590208:android:311f58e230f8ce74e3ce25",
+        "android_client_info": {
+          "package_name": "firebase.app.mall24x7"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238273590208-qj4419ch9haj31441i5uqkm1cbqk3sn0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "firebase.app.mall24x7",
+            "certificate_hash": "28976758db1351f733ca664604ae8c93cbfa2177"
+          }
+        },
+        {
+          "client_id": "238273590208-jvmcprkfohi7lb3653fd4di8f2h6tk05.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZAH7EvM-N8nzhaKiB46yWS2ZogJWYUnc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238273590208-jvmcprkfohi7lb3653fd4di8f2h6tk05.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

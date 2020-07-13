@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:scrollbars="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Sellers.SellerLoginActivity">
+
+
+    <ImageView
+        android:id="@+id/img_seller"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/sellerlogin"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/title_seller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_seller"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:text="Seller Login Form"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/seller_login_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_seller"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+
+        />
+    />
+    <EditText
+        android:id="@+id/seller_login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/seller_login_email"
+        android:hint="Password..."
+        android:inputType="textPassword"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="10dp"
+
+        />
+    <Button
+        android:id="@+id/seller_login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/seller_login_password"
+        android:background="@android:color/holo_blue_light"
+        android:text="login"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+
+        />
+
+</RelativeLayout>
